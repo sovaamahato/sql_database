@@ -1,0 +1,36 @@
+create database bit3rdsem;
+Use bit3rdsem
+go
+--create table Student(
+--id int not null primary key identity(1,1),
+--name nvarchar(255) not null,
+--address nvarchar(255) not null,
+--contact nvarchar (25) not null,
+
+
+--);
+
+--Alter table Student add college nvarchar (255) Null;
+
+insert into Student (name,address,contact,college)values
+('sova_kushwaha','ktm','90000','kist'),
+('ninja hattori','ninjapur','90000','kist'),
+('oppa','sarlahi','90000','kist')
+
+
+Select * from Student
+
+delete from Student where id=2
+
+select name,address from Student
+
+Select * from Student where id>3
+
+
+Select * from Student where name='oppa' and id=8
+
+Update Student set name='Upasana Unnie' where id=8
+
+--delete from Student where condition
+
+--Create new table and try insert,select,update,delete
